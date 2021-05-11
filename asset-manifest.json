@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.3831b69e.chunk.css",
-    "main.js": "/static/js/main.cfe51375.chunk.js",
-    "main.js.map": "/static/js/main.cfe51375.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.55954f77.js",
-    "runtime-main.js.map": "/static/js/runtime-main.55954f77.js.map",
-    "static/css/2.5d9248fe.chunk.css": "/static/css/2.5d9248fe.chunk.css",
-    "static/js/2.3d3e3aa0.chunk.js": "/static/js/2.3d3e3aa0.chunk.js",
-    "static/js/2.3d3e3aa0.chunk.js.map": "/static/js/2.3d3e3aa0.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.5d9248fe.chunk.css.map": "/static/css/2.5d9248fe.chunk.css.map",
-    "static/css/main.3831b69e.chunk.css.map": "/static/css/main.3831b69e.chunk.css.map",
-    "static/js/2.3d3e3aa0.chunk.js.LICENSE.txt": "/static/js/2.3d3e3aa0.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/static/media/GemunuLibre-SemiBold.aaa58aed.ttf",
-    "static/media/Hawaii.c70d354d.png": "/static/media/Hawaii.c70d354d.png",
-    "static/media/katex.min.css": "/static/media/KaTeX_Typewriter-Regular.c5441b17.ttf",
-    "static/media/test.csv": "/static/media/test.b7d6ebc6.csv"
+    "main.css": "/adaptation-profiler/static/css/main.00ccf341.chunk.css",
+    "main.js": "/adaptation-profiler/static/js/main.cfe51375.chunk.js",
+    "main.js.map": "/adaptation-profiler/static/js/main.cfe51375.chunk.js.map",
+    "runtime-main.js": "/adaptation-profiler/static/js/runtime-main.858ec5eb.js",
+    "runtime-main.js.map": "/adaptation-profiler/static/js/runtime-main.858ec5eb.js.map",
+    "static/css/2.edaf601f.chunk.css": "/adaptation-profiler/static/css/2.edaf601f.chunk.css",
+    "static/js/2.3d3e3aa0.chunk.js": "/adaptation-profiler/static/js/2.3d3e3aa0.chunk.js",
+    "static/js/2.3d3e3aa0.chunk.js.map": "/adaptation-profiler/static/js/2.3d3e3aa0.chunk.js.map",
+    "index.html": "/adaptation-profiler/index.html",
+    "static/css/2.edaf601f.chunk.css.map": "/adaptation-profiler/static/css/2.edaf601f.chunk.css.map",
+    "static/css/main.00ccf341.chunk.css.map": "/adaptation-profiler/static/css/main.00ccf341.chunk.css.map",
+    "static/js/2.3d3e3aa0.chunk.js.LICENSE.txt": "/adaptation-profiler/static/js/2.3d3e3aa0.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/adaptation-profiler/static/media/GemunuLibre-SemiBold.aaa58aed.ttf",
+    "static/media/Hawaii.c70d354d.png": "/adaptation-profiler/static/media/Hawaii.c70d354d.png",
+    "static/media/katex.min.css": "/adaptation-profiler/static/media/KaTeX_Typewriter-Regular.c5441b17.ttf",
+    "static/media/test.csv": "/adaptation-profiler/static/media/test.b7d6ebc6.csv"
   },
   "entrypoints": [
-    "static/js/runtime-main.55954f77.js",
-    "static/css/2.5d9248fe.chunk.css",
+    "static/js/runtime-main.858ec5eb.js",
+    "static/css/2.edaf601f.chunk.css",
     "static/js/2.3d3e3aa0.chunk.js",
-    "static/css/main.3831b69e.chunk.css",
+    "static/css/main.00ccf341.chunk.css",
     "static/js/main.cfe51375.chunk.js"
   ]
 }
