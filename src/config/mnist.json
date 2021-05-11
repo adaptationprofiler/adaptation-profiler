@@ -1,0 +1,193 @@
+{
+    "applicationName": "MNIST Classifier",
+    "time": 0.128e-3,
+    "initOverheadEnergy": 20e-6,
+    "adaptationStrategy": [
+        {
+            "type": "Crop Image",
+            "adaptiveVariables": ["skipRows", "skipColumns"],
+            "accuracyMap": {
+                "0_0": 92.8,
+                "1_1": 92.8,
+                "2_2": 92.6,
+                "3_3": 92.2,
+                "4_4": 90.9,
+                "5_5": 88.1,
+                "6_6": 79.1,
+                "7_7": 65.8,
+                "8_8": 42.3,
+                "9_9": 29.6,
+                "10_10": 24.5,
+                "11_11": 17.2,
+                "12_12": 13.3,
+                "13_13": 16.7,
+                "14_14": 8.9
+            },
+            "tasks": [
+                {
+                    "taskName": "task_init",
+                    "adaptiveVars": null,
+                    "taskIterations": 1,
+                    "taskWeight": 0,
+                    "time": 18e-6,
+                    "energyPerItr": 4.08e-6,
+                    "nextTask": "task_neural_network_hypothesis"
+                },
+                {
+                    "taskName": "task_neural_network_hypothesis",
+                    "adaptiveVars": ["skipRows", "skipColumns"],
+                    "taskIterations": "(28 - skipRows - skipColumns) * 10",
+                    "taskWeight": 21,
+                    "time": 3.175e-3,
+                    "energyPerItr": 46.74e-6,
+                    "nextTask": "task_neural_network_softmax_max"
+                },
+                {
+                    "taskName": "task_neural_network_softmax_max",
+                    "adaptiveVars": null,
+                    "taskIterations": 1,
+                    "taskWeight": 1,
+                    "time": 0.127e-3,
+                    "energyPerItr": 2.44e-6,
+                    "nextTask": "task_neural_network_softmax_sum"
+                },
+                {
+                    "taskName": "task_neural_network_softmax_sum",
+                    "adaptiveVars": null,
+                    "taskIterations": 10,
+                    "taskWeight": 28,
+                    "time": 4.178e-3,
+                    "energyPerItr": 332.18e-6,
+                    "nextTask": "task_neural_network_softmax"
+                },
+                {
+                    "taskName": "task_neural_network_softmax",
+                    "adaptiveVars": null,
+                    "taskIterations": 1,
+                    "taskWeight": 5,
+                    "time": 0.707e-3,
+                    "energyPerItr": 9.96e-6,
+                    "nextTask": "task_classify"
+                },
+                {
+                    "taskName": "task_classify",
+                    "adaptiveVars": null,
+                    "taskIterations": 1,
+                    "taskWeight": 1,
+                    "time": 0.151e-3,
+                    "energyPerItr": 2.64e-6,
+                    "nextTask": "task_done"
+                },
+                {
+                    "taskName": "task_done",
+                    "adaptiveVars": null,
+                    "taskIterations": 1,
+                    "taskWeight": 1,
+                    "time": 0.173e-3,
+                    "energyPerItr": 2.45e-6,
+                    "nextTask": "task_sleep"
+                },
+                {
+                    "taskName": "task_sleep",
+                    "adaptiveVars": null,
+                    "taskIterations": 1,
+                    "taskWeight": 0,
+                    "time": 18e-6,
+                    "energyPerItr": 157e-6,
+                    "nextTask": "task_init"
+                }
+            ]
+        },
+        {
+            "type": "Skip Classes",
+            "adaptiveVariables": "skipClass",
+            "accuracyMap": {
+                "0": 92.8,
+                "1": 84.2,
+                "2": 76.1,
+                "3": 66.7,
+                "4": 57.8,
+                "5": 50.1,
+                "6": 40.6,
+                "7": 31.0,
+                "8": 21.1,
+                "9": 9.80,
+                "10": 9.80
+            },
+            "tasks": [
+                {
+                    "taskName": "task_init",
+                    "adaptiveVars": null,
+                    "taskIterations": 1,
+                    "taskWeight": 0,
+                    "time": 18e-6,
+                    "energyPerItr": 4.08e-6,
+                    "nextTask": "task_neural_network_hypothesis"
+                },
+                {
+                    "taskName": "task_neural_network_hypothesis",
+                    "adaptiveVars": ["skipClass"],
+                    "taskIterations": "28 * (10 - skipClass)",
+                    "taskWeight": 21,
+                    "time": 3.175e-3,
+                    "energyPerItr": 46.74e-6,
+                    "nextTask": "task_neural_network_softmax_max"
+                },
+                {
+                    "taskName": "task_neural_network_softmax_max",
+                    "adaptiveVars": ["skipClass"],
+                    "taskIterations": 1,
+                    "taskWeight": 1,
+                    "time": 0.127e-3,
+                    "energyPerItr": 2.44e-6,
+                    "nextTask": "task_neural_network_softmax_sum"
+                },
+                {
+                    "taskName": "task_neural_network_softmax_sum",
+                    "adaptiveVars": ["skipClass"],
+                    "taskIterations": "10 - skipClass",
+                    "taskWeight": 28,
+                    "time": 4.178e-3,
+                    "energyPerItr": 332.18e-6,
+                    "nextTask": "task_neural_network_softmax"
+                },
+                {
+                    "taskName": "task_neural_network_softmax",
+                    "adaptiveVars": ["skipClass"],
+                    "taskIterations": 1,
+                    "taskWeight": 5,
+                    "time": 0.707e-3,
+                    "energyPerItr": 9.96e-6,
+                    "nextTask": "task_classify"
+                },
+                {
+                    "taskName": "task_classify",
+                    "adaptiveVars": ["skipClass"],
+                    "taskIterations": 1,
+                    "taskWeight": 1,
+                    "time": 0.151e-3,
+                    "energyPerItr": 2.64e-6,
+                    "nextTask": "task_done"
+                },
+                {
+                    "taskName": "task_done",
+                    "adaptiveVars": null,
+                    "taskIterations": 1,
+                    "taskWeight": 1,
+                    "time": 0.173e-3,
+                    "energyPerItr": 2.45e-6,
+                    "nextTask": "task_sleep"
+                },
+                {
+                    "taskName": "task_sleep",
+                    "adaptiveVars": null,
+                    "taskIterations": 1,
+                    "taskWeight": 0,
+                    "time": 18e-6,
+                    "energyPerItr": 157e-6,
+                    "nextTask": "task_init"
+                }
+            ]
+        }
+    ]
+}
