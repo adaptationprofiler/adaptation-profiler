@@ -1,27 +1,30 @@
 {
   "files": {
     "main.css": "/adaptation-profiler/static/css/main.00ccf341.chunk.css",
-    "main.js": "/adaptation-profiler/static/js/main.bf7cc985.chunk.js",
-    "main.js.map": "/adaptation-profiler/static/js/main.bf7cc985.chunk.js.map",
+    "main.js": "/adaptation-profiler/static/js/main.07b24fd4.chunk.js",
+    "main.js.map": "/adaptation-profiler/static/js/main.07b24fd4.chunk.js.map",
     "runtime-main.js": "/adaptation-profiler/static/js/runtime-main.858ec5eb.js",
     "runtime-main.js.map": "/adaptation-profiler/static/js/runtime-main.858ec5eb.js.map",
     "static/css/2.edaf601f.chunk.css": "/adaptation-profiler/static/css/2.edaf601f.chunk.css",
-    "static/js/2.7594f341.chunk.js": "/adaptation-profiler/static/js/2.7594f341.chunk.js",
-    "static/js/2.7594f341.chunk.js.map": "/adaptation-profiler/static/js/2.7594f341.chunk.js.map",
+    "static/js/2.138b78b9.chunk.js": "/adaptation-profiler/static/js/2.138b78b9.chunk.js",
+    "static/js/2.138b78b9.chunk.js.map": "/adaptation-profiler/static/js/2.138b78b9.chunk.js.map",
     "index.html": "/adaptation-profiler/index.html",
     "static/css/2.edaf601f.chunk.css.map": "/adaptation-profiler/static/css/2.edaf601f.chunk.css.map",
     "static/css/main.00ccf341.chunk.css.map": "/adaptation-profiler/static/css/main.00ccf341.chunk.css.map",
-    "static/js/2.7594f341.chunk.js.LICENSE.txt": "/adaptation-profiler/static/js/2.7594f341.chunk.js.LICENSE.txt",
+    "static/js/2.138b78b9.chunk.js.LICENSE.txt": "/adaptation-profiler/static/js/2.138b78b9.chunk.js.LICENSE.txt",
     "static/media/index.css": "/adaptation-profiler/static/media/GemunuLibre-SemiBold.aaa58aed.ttf",
-    "static/media/Hawaii.c70d354d.png": "/adaptation-profiler/static/media/Hawaii.c70d354d.png",
     "static/media/katex.min.css": "/adaptation-profiler/static/media/KaTeX_Typewriter-Regular.c5441b17.ttf",
-    "static/media/test.csv": "/adaptation-profiler/static/media/test.b7d6ebc6.csv"
+    "static/media/high-energy.csv": "/adaptation-profiler/static/media/high-energy.24e147d3.csv",
+    "static/media/low-energy.csv": "/adaptation-profiler/static/media/low-energy.115cf14b.csv",
+    "static/media/moving-fast-energy.csv": "/adaptation-profiler/static/media/moving-fast-energy.b7d6ebc6.csv",
+    "static/media/moving-slow-energy.csv": "/adaptation-profiler/static/media/moving-slow-energy.c31f9bb5.csv",
+    "static/media/random.csv": "/adaptation-profiler/static/media/random.f5cfaf05.csv"
   },
   "entrypoints": [
     "static/js/runtime-main.858ec5eb.js",
     "static/css/2.edaf601f.chunk.css",
-    "static/js/2.7594f341.chunk.js",
+    "static/js/2.138b78b9.chunk.js",
     "static/css/main.00ccf341.chunk.css",
-    "static/js/main.bf7cc985.chunk.js"
+    "static/js/main.07b24fd4.chunk.js"
   ]
 }
